@@ -1,0 +1,50 @@
+{
+  "format": "citereceipt-v1",
+  "checked_at_utc": "2026-11-02T08:26:36.693318+00:00",
+  "source": "Crossref REST API",
+  "unique_dois": 1,
+  "rows_with_issues": 1,
+  "incomplete": false,
+  "results": [
+    {
+      "reference": 1,
+      "input": {
+        "doi": "10.1038/nphys1170",
+        "title": "Measured measurement",
+        "year": 2009
+      },
+      "duplicate_of": null,
+      "status": "found",
+      "titles": [
+        "Measured measurement"
+      ],
+      "publication_years": [
+        2009
+      ],
+      "record_url": "https://api.crossref.org/works/10.1038%2Fnphys1170",
+      "issues": []
+    },
+    {
+      "reference": 2,
+      "input": {
+        "doi": "10.1038/nphys1170",
+        "title": "A deliberately incorrect demonstration title",
+        "year": 2025
+      },
+      "duplicate_of": 1,
+      "status": "found",
+      "titles": [
+        "Measured measurement"
+      ],
+      "publication_years": [
+        2009
+      ],
+      "record_url": "https://api.crossref.org/works/10.1038%2Fnphys1170",
+      "issues": [
+        "duplicate_doi",
+        "title_differs",
+        "year_differs"
+      ]
+    }
+  ]
+}
